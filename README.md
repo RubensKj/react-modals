@@ -1,3 +1,3 @@
 # React Modals
 
-- README.md are comming
+- README.md will be provided
