@@ -16,7 +16,7 @@
 
 <p>A project to use de library of react-modals creating mini website with a cool css 🖥️</p>
 
-<p align="center"><img src=".github/react-modals.gif"/></p>
+<p align="center"><img src=".github/web_apresentation.gif"/></p>
 <br/>
 
 # 🐦 Direct Links
