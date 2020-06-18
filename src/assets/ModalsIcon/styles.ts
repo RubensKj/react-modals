@@ -48,12 +48,18 @@ export const Container = styled.div`
   }
 
   @media only screen and (max-width: 550px) {
-    width: 100%;
+    transition: 0.2s transform;
+
     margin-top: 125px;
-    margin-bottom: 0;
-    margin-right: 0;
-    flex-direction: column;
-    transform: scale(1) !important;
+    margin-bottom: 155px;
+    margin-right: 165px;
+    transform: scale(0.4) !important;
+  }
+
+  @media only screen and (max-width: 350px) {
+    transition: 0.2s transform;
+    margin-right: 140px;
+    transform: scale(0.35) !important;
   }
 `;
 
@@ -87,11 +93,5 @@ export const Card = styled.div`
   :nth-child(3) {
     top: -155px;
     left: 380px;
-  }
-
-
-  @media only screen and (max-width: 550px) {
-    position: initial;
-    margin-bottom: 25px;
   }
 `;

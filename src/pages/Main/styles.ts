@@ -132,10 +132,15 @@ export const Button = styled.button`
   width: 100%;
   padding: 15px 20px;
   border-radius: 8px;
-
   cursor: pointer;
 
   box-shadow: 0px 8px 19px 2px rgba(0,0,0,0.05);
+
+  transition: 0.2s transform;
+
+  :hover {
+    transform: translateY(-2px);
+  }
 
   @media only screen and (max-width: 550px) {
     transition: 0.2s max-width;
